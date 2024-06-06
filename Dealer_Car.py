@@ -57,15 +57,15 @@ models = {
             "weight": 950,
             "price": 500000000,
         },
-        "Supra Turbo": {
+        "Supra MK-4": {
             "year": 1999,
             "engine": "3.0L 6 Inline Twin-Turbocharged",
             "gearbox": "6-Speed Manual Gearbox",
-            "drivetrain": "AWD",
+            "drivetrain": "RWD",
             "power": 320,
             "torque": 315,
-            "weight": 1735,
-            "price": 1500000000,
+            "weight": 1535,
+            "price": 2500000000,
         },
     },
     "Honda": {
