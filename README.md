@@ -1,40 +1,66 @@
-# Car-Dealer-in-Python
+# 🚗 Car Dealer in Python
 
-Fanny Motorsport adalah sebuah program berbasis Python yang dirancang untuk mensimulasikan pengalaman pengguna dalam memilih dan membeli mobil dari sebuah dealer virtual. Proyek ini dikembangkan sebagai latihan pemrograman yang mengintegrasikan logika kondisional, struktur data kompleks (seperti dictionary bersarang), manipulasi input/output, serta konsep fungsi dalam Python.
+**Fanny Motorsport** adalah sebuah program berbasis Python yang dirancang untuk mensimulasikan pengalaman pengguna dalam memilih dan membeli mobil dari sebuah dealer virtual. Proyek ini dikembangkan sebagai latihan pemrograman yang mengintegrasikan:
 
-🔧 Fitur Utama
-Pemilihan Tipe Domestik Mobil
-Pengguna dapat memilih jenis mobil berdasarkan wilayah produksi: JDM (Japanese Domestic Market), EDM (European Domestic Market), dan ADM (American Domestic Market).
+- Logika kondisional
+- Struktur data kompleks (dictionary bersarang)
+- Manipulasi input/output
+- Konsep fungsi dalam Python
 
-Brand dan Model Otentik
-Sistem menyediakan daftar brand dan model mobil lengkap beserta spesifikasi teknisnya seperti mesin, transmisi, drivetrain, tenaga, torsi, berat, dan harga. Brand-brand mobil ternama seperti Toyota, Nissan, Honda, Subaru, Audi, Bugatti, Koenigsegg, dan lainnya tersedia.
+---
 
-Deskripsi Mobil yang Interaktif
-Setelah memilih model, pengguna akan disajikan dengan spesifikasi teknis lengkap termasuk warna mobil acak yang disimulasikan untuk variasi.
+## 🔧 Fitur Utama
 
-Simulasi Transaksi
-Pengguna dapat memutuskan untuk membeli mobil yang dipilih. Jika dibeli, sistem akan secara otomatis menghapus model tersebut dari inventaris dealer, menyimulasikan kondisi stok nyata.
+- ### 🗺️ Pemilihan Tipe Domestik Mobil
+  Pengguna dapat memilih jenis mobil berdasarkan wilayah produksi:
+  - **JDM** (Japanese Domestic Market)
+  - **EDM** (European Domestic Market)
+  - **ADM** (American Domestic Market)
 
-Validasi Data & Fungsi Pengecekan Stok
-Sistem dilengkapi dengan fungsi untuk memeriksa apakah suatu mobil masih tersedia setelah transaksi dilakukan, dan memberikan umpan balik real-time.
+- ### 🚘 Brand dan Model Otentik
+  Sistem menyediakan daftar brand dan model mobil lengkap dengan spesifikasi teknis seperti:
+  - Mesin
+  - Transmisi
+  - Sistem penggerak
+  - Tenaga (HP)
+  - Torsi (Nm)
+  - Berat (Kg)
+  - Harga (Rp)
 
-User-Friendly CLI Experience
-Seluruh interaksi dilakukan melalui antarmuka berbasis terminal (Command Line Interface), menjadikannya ringan dan mudah digunakan.
+- ### 🛠️ Deskripsi Mobil Interaktif
+  Setelah memilih model, pengguna akan mendapatkan detail mobil secara lengkap serta **warna mobil acak** untuk memberikan variasi pengalaman.
 
-🧠 Konsep Pemrograman yang Digunakan
-if-else dan logika kontrol
+- ### 💳 Simulasi Transaksi Pembelian
+  Pengguna dapat memilih untuk **membeli mobil**, dan sistem akan menghapusnya dari inventaris, seolah-olah stok sudah habis seperti pada sistem dealer nyata.
 
-Loop (for, while)
+- ### ✅ Validasi & Pengecekan Stok
+  Sistem secara otomatis memeriksa dan memberitahu apakah model mobil yang diminta masih tersedia setelah pembelian.
 
-Dictionary bertingkat (nested dictionaries)
+- ### 💻 CLI (Command Line Interface)
+  Seluruh interaksi terjadi melalui terminal, menjadikan aplikasi ini ringan dan mudah digunakan.
 
-Fungsi kustom (check_car_availability)
+---
 
-Input/output terminal
+## 🧠 Konsep Pemrograman yang Digunakan
 
-Modul os untuk membersihkan layar
+- Struktur kontrol (`if`, `else`, `while`, `for`)
+- Fungsi dan modularisasi kode
+- Dictionary bertingkat untuk manajemen data mobil
+- Library:
+  - `random` untuk pilihan warna acak
+  - `os` untuk pembersihan layar
+- Validasi data pengguna
+- Simulasi penghapusan data (mobil terjual)
 
-Modul random untuk simulasi variasi warna mobil
+---
 
-🎯 Tujuan Proyek
-Proyek ini ditujukan sebagai sarana pembelajaran dan eksperimen dalam pengelolaan data, interaksi pengguna, dan simulasi sistem berbasis inventory management. Cocok untuk pemula yang ingin mempelajari struktur data Python sambil membangun program interaktif yang realistis.
+## 🎯 Tujuan Proyek
+
+Proyek ini bertujuan sebagai media pembelajaran dalam:
+- Pemrograman dasar dan menengah menggunakan Python
+- Manajemen data dan interaksi berbasis teks
+- Pengembangan sistem sederhana berbasis inventory management
+
+---
+
+## 📷
